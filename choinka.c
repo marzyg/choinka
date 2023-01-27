@@ -6,8 +6,9 @@
 
 int main() {
 	int height, i, j;
-	printf("Podaj wysokość choinki: ");
+	printf("Podaj wysokość choinki:\n");
 	scanf("%d", &height);
+	printf("\n");
 	for(i = 1; i <= height; i++) {
 		for(j = 1; j <= height - i; j++) {
             		printf(" ");
